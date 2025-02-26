@@ -1,0 +1,60 @@
+{
+  "__version__": "1.0.6",
+  "general": {
+    "designResolution": {
+      "fitHeight": true,
+      "width": 1136,
+      "height": 640
+    }
+  },
+  "physics": {
+    "collisionGroups": [
+      {
+        "index": 1,
+        "name": "home"
+      },
+      {
+        "index": 2,
+        "name": "boss"
+      },
+      {
+        "index": 3,
+        "name": "role"
+      },
+      {
+        "index": 4,
+        "name": "enemy"
+      },
+      {
+        "index": 5,
+        "name": "role_atk"
+      },
+      {
+        "index": 6,
+        "name": "enemy_atk"
+      },
+      {
+        "index": 7,
+        "name": "skill_atk"
+      },
+      {
+        "index": 8,
+        "name": "shield"
+      }
+    ],
+    "collisionMatrix": {
+      "0": 1,
+      "1": 16,
+      "2": 32,
+      "3": 64,
+      "4": 162,
+      "5": 20,
+      "6": 264,
+      "7": 16,
+      "8": 64
+    }
+  },
+  "script": {
+    "preserveSymlinks": true
+  }
+}
